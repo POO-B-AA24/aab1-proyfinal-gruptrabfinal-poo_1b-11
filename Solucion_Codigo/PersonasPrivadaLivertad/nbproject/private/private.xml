@@ -5,10 +5,16 @@
         <group>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/LecturaPPL.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Controller/Agravante.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/Persona.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Controller/PersonaGuardia.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/DatabaseConnector.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/EscrituraPPL.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Controller/Delito.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/View/SistemaPPL.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/PersonaPrivadaLibertadDAO.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Controller/PersonaVisita.java</file>
             <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Controller/PersonaPrivadaLibertad.java</file>
+            <file>file:/C:/Users/Usuario/Documents/NetBeansProjects/PersonasPrivadaLivertad/src/Model/PRUEVA.java</file>
         </group>
     </open-files>
 </project-private>
