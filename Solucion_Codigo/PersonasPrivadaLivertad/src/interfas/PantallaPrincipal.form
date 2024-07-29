@@ -91,7 +91,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Nirmala UI" size="18" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Numero de indentificacion"/>
+        <Property name="text" type="java.lang.String" value="Usuario"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nombreActionPerformed"/>

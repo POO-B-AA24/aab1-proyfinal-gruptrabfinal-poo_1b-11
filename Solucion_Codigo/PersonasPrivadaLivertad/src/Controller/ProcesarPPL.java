@@ -1,5 +1,4 @@
 package Controller;
-
 import Model.H1_T_Agravante;
 import Model.DAO_DatabaseConnector;
 import Model.H1_T_Delito;
@@ -31,7 +30,7 @@ public class ProcesarPPL {
         int affectedRows = pstmtPersona.executeUpdate();
 
         if (affectedRows == 0) {
-            throw new SQLException("Creating persona failed, no rows affected.");
+            throw new SQLException("fallo al crear");
         }
 
         try (ResultSet generatedKeys = pstmtPersona.getGeneratedKeys()) {
@@ -47,7 +46,7 @@ public class ProcesarPPL {
                 // Insertar las visitas
                 insertarVisitas(personaId, persona.getVisitas());
             } else {
-                throw new SQLException("Creating persona failed, no ID obtained.");
+                throw new SQLException("faloo crear no id");
             }
         }
     } catch (SQLException e) {

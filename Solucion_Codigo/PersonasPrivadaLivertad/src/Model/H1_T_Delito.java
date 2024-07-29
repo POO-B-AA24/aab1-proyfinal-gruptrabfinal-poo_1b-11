@@ -19,7 +19,7 @@ public class H1_T_Delito  {
     }
     @Override
     public String toString() {
-        return String.format("\n\nDelito: \n   tipoDelito=%s \n   gravedad=%s \n   descripcion=%s)",
+        return String.format("\n   tipoDelito=%s \n   gravedad=%s \n   descripcion=%s)",
         tipoDelito, gravedad, descripcion);
     }
 }

@@ -1,15 +1,8 @@
 package Model;
-import Model.H1_T_Agravante;
-import Model.H1_T_Delito;
-import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import  Model.*;
-
-public class H1_PersonaPrivadaLibertad extends H_Persona  {
-        
-     private int diasVPermitidos;
+public class H1_PersonaPrivadaLibertad extends H_Persona  {      
+    private int diasVPermitidos;
     private int numeroActualVisitas;
     private String fechaIngreso;
     private ArrayList<H1_T_Delito> delitos;
@@ -53,35 +46,27 @@ public class H1_PersonaPrivadaLibertad extends H_Persona  {
     public void setAgravantes(ArrayList<H1_T_Agravante> agravantes) {
         this.agravantes = agravantes;
     }
-
     public void setVisitas(ArrayList<H3_TH1_PersonaVisita> visitas) {
         this.visitas = visitas;
     }
-
     public ArrayList<H1_T_Delito> getDelitos() {
         return delitos;
     }
-
     public ArrayList<H1_T_Agravante> getAgravantes() {
         return agravantes;
     }
-
     public ArrayList<H3_TH1_PersonaVisita> getVisitas() {
         return visitas;
     }
-
     public int getDiasVPermitidos() {
         return diasVPermitidos;
     }
-
     public int getNumeroActualVisitas() {
         return numeroActualVisitas;
     }
-
     public String getFechaIngreso() {
         return fechaIngreso;
     }
-
     @Override
     public String toString() {
         return String.format("\n//////////////////////////////////////////////////////\nPersonaPrivadaLibertad:"
@@ -91,6 +76,4 @@ public class H1_PersonaPrivadaLibertad extends H_Persona  {
                 + "\n//////////////////////////////////////////////////////", 
                 diasVPermitidos, numeroActualVisitas, fechaIngreso, delitos, agravantes, visitas);
     }
-
-
 }

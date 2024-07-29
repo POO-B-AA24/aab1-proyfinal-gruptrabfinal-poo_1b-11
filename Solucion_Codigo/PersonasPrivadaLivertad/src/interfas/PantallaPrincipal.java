@@ -5,16 +5,16 @@ import Model.H2_PersonaGuardia;
 import java.util.List;
 
 public class PantallaPrincipal extends javax.swing.JFrame {
-    private Pantalla panta=new Pantalla();
+    private PantallaIntermediaria panta=new PantallaIntermediaria();
     public PantallaPrincipal() {
         initComponents();
     }
 
-    public Pantalla getPanta() {
+    public PantallaIntermediaria getPanta() {
         return panta;
     }
 
-    public void setPanta(Pantalla panta) {
+    public void setPanta(PantallaIntermediaria panta) {
         this.panta = panta;
     }
 
@@ -58,7 +58,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 150, 300, 70));
 
         nombre.setFont(new java.awt.Font("Nirmala UI", 1, 18)); // NOI18N
-        nombre.setText("Numero de indentificacion");
+        nombre.setText("Usuario");
         nombre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nombreActionPerformed(evt);
@@ -109,9 +109,7 @@ public class PantallaPrincipal extends javax.swing.JFrame {
                 advertencia.setText("Datos Incorrectos");
             }
         }
-        
-       
-        
+      
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void contrasenaMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_contrasenaMouseExited

@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
+
 public class DAO_DatabaseConnector {
     private static final String URLPPL = "jdbc:sqlite:personasPrivadasLibertad.db";
     private static final String URLGuardia = "jdbc:sqlite:personaGuardia.db";

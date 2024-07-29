@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 public class DAO_PersonaGuardia {
-    public static void crearTabla() {
+    public static void crearTabla()  {
         String sql = "CREATE TABLE IF NOT EXISTS H2_PersonaGuardia ("
                 + "id INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + "especialidad TEXT NOT NULL, "
